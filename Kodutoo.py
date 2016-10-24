@@ -82,7 +82,7 @@ while (not is_found):
         print(tries)
         print("\n")
         print("Plaintext in binary:")
-        print(bin(binary_type))
+        print(bin(plaintextbinary))
         print("\n")
         print("Cyphertext in binary")
         print(bin(cypherbinary))
