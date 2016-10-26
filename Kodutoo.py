@@ -61,7 +61,7 @@ def to_list(binary_type):
     return list_type
 
 
-obj = AES.new('aaaaaaaaaaaaaaaaaaaa0825', 3, '0000000000000000')
+obj = AES.new(bytes(to_list(0b100000100101)), 3, '0000000000000000')
 
 plaintext = to_list(0b0)
 is_found = False
