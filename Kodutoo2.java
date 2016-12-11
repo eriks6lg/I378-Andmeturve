@@ -1,7 +1,7 @@
 import java.math.*;
 import java.util.Random;
 
-public class Main {
+public class Kodutoo2 {
 
     public static void main (String[] args) {
 
